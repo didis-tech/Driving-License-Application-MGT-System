@@ -15,8 +15,8 @@ $conn = mysqli_connect("localhost", "root", "", "getlicensed");
 $URL = (isset($_SERVER['HTTPS']) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
 $getData = $_GET;
 $postData = $_POST;
-$publicKey = "FLWPUBK-3bcb772041695db64df9ab6ab6b8c74d-X";
-$secretKey = "FLWSECK-03ae2c0361459cb5dd90311702e29540-X";
+$publicKey = "FLWPUBK-****************************-X";
+$secretKey = "FLWSECK-****************************-X";
 $success_url = $URL . "paymentResponse.php?response=success";
 $failure_url = $URL . "paymentResponse.php?response=failed";
 $env = "staging"; // Remember to change this to 'live' when you are going live
